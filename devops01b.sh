@@ -9,6 +9,7 @@ IP=0
 # Test for parameters
 if [ "$1" == "" ]
 then
+    echo "Sorry, no options"
     PART=0
     CPU=0
     MEM=0
