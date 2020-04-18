@@ -29,14 +29,26 @@ elfi [$1 == "-all"]
 fi 
 
 # Find out partition info
-df -Pk
+if [PART]
+then
+    df -Pk
+fi
 
 # Find Processor info
-lscpu
+if [CPU]
+then
+    lscpu
+fi
 
 # Find out Memory info
-cat /proc/meminfo
+if [MEM]
+then
+    cat /proc/meminfo
+fi
 
 # Find out network config
-ifconfig
+if [IP]
+then
+    ifconfig
+fi
 
