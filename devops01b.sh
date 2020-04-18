@@ -7,25 +7,25 @@ MEM=0
 IP=0
 
 # Test for parameters
-if [$1 == ""]
+if [ $1 == "" ]
 then
     PART=0
     CPU=0
     MEM=0
     IP=0
-elif [$1 == "-volumes"]
+elif [ $1 == "-volumes" ]
 then
     PART=1
-elif [$1 == "-cpu"]
+elif [ $1 == "-cpu" ]
 then
     CPU=1
-elif [$1 == "-ram"]
+elif [ $1 == "-ram" ]
 then
     RAM=1
-elif [$1 == "-network"]
+elif [ $1 == "-network" ]
 then
     IP=1
-elif [$1 == "-all"]
+elif [ $1 == "-all" ]
 then
     PART=1
     CPU=1 
@@ -34,25 +34,25 @@ then
 fi 
 
 # Find out partition info
-if [ $PART ]
+if [ $PART == 1 ]
 then
     df -Pk
 fi
 
 # Find Processor info
-if [ $CPU ]
+if [ $CPU == 1 ]
 then
     lscpu
 fi
 
 # Find out Memory info
-if [ $MEM ]
+if [ $MEM == 1 ]
 then
     cat /proc/meminfo
 fi
 
 # Find out network config
-if [ $IP ]
+if [ $IP == 1 ]
 then
     ifconfig
 fi
