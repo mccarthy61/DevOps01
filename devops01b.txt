@@ -1,0 +1,273 @@
+Sorry, no options
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              2
+On-line CPU(s) list: 0,1
+Thread(s) per core:  1
+Core(s) per socket:  2
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               23
+Model name:          Intel(R) Core(TM)2 Duo CPU     P8600  @ 2.40GHz
+Stepping:            10
+CPU MHz:             1840.510
+CPU max MHz:         2394.0000
+CPU min MHz:         1596.0000
+BogoMIPS:            4778.10
+Virtualization:      VT-x
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            3072K
+NUMA node0 CPU(s):   0,1
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm sse4_1 xsave lahf_lm pti tpr_shadow vnmi flexpriority dtherm
+MemTotal:        7889600 kB
+MemFree:         3355068 kB
+MemAvailable:    4788988 kB
+Buffers:          251996 kB
+Cached:          1297460 kB
+SwapCached:            0 kB
+Active:          2503144 kB
+Inactive:         627332 kB
+Active(anon):    1583156 kB
+Inactive(anon):    78924 kB
+Active(file):     919988 kB
+Inactive(file):   548408 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:       2097148 kB
+SwapFree:        2097148 kB
+Dirty:               224 kB
+Writeback:             0 kB
+AnonPages:       1577044 kB
+Mapped:          1087720 kB
+Shmem:             81068 kB
+KReclaimable:     271316 kB
+Slab:             330968 kB
+SReclaimable:     271316 kB
+SUnreclaim:        59652 kB
+KernelStack:       12560 kB
+PageTables:        54052 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     6041948 kB
+Committed_AS:    6663560 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       31504 kB
+VmallocChunk:          0 kB
+Percpu:              744 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      485868 kB
+DirectMap2M:     7636992 kB
+enp4s0f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.43  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::ed39:a75f:4a9:2840  prefixlen 64  scopeid 0x20<link>
+        ether c4:2c:03:04:be:c8  txqueuelen 1000  (Ethernet)
+        RX packets 433663  bytes 151409874 (151.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 46572  bytes 4790004 (4.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 9739  bytes 1050201 (1.0 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 9739  bytes 1050201 (1.0 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vboxnet0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.1.1.1  netmask 255.255.255.0  broadcast 10.1.1.255
+        inet6 fe80::800:27ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 0a:00:27:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 205  bytes 19434 (19.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp3s0b1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 58:b0:35:83:9a:8a  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+Filesystem     1024-blocks      Used Available Capacity Mounted on
+udev               3907248         0   3907248       0% /dev
+tmpfs               788960      1988    786972       1% /run
+/dev/sda2        306545592  13606832 277297368       5% /
+tmpfs              3944800     44568   3900232       2% /dev/shm
+tmpfs                 5120         4      5116       1% /run/lock
+tmpfs              3944800         0   3944800       0% /sys/fs/cgroup
+/dev/loop10           4480      4480         0     100% /snap/gnome-calculator/704
+/dev/loop11           3840      3840         0     100% /snap/gnome-system-monitor/135
+/dev/loop6            4352      4352         0     100% /snap/gnome-calculator/544
+/dev/loop5            1024      1024         0     100% /snap/gnome-logs/81
+/dev/loop12           1024      1024         0     100% /snap/gnome-logs/93
+/dev/loop7            3840      3840         0     100% /snap/gnome-system-monitor/127
+/dev/loop14          49536     49536         0     100% /snap/gtk-common-themes/1474
+/dev/loop3           96128     96128         0     100% /snap/core/8935
+/dev/loop9           56320     56320         0     100% /snap/core18/1705
+/dev/loop0           56064     56064         0     100% /snap/core18/1668
+/dev/loop2           91264     91264         0     100% /snap/core/8268
+/dev/loop4          164096    164096         0     100% /snap/gnome-3-28-1804/116
+/dev/loop1           15104     15104         0     100% /snap/gnome-characters/399
+/dev/loop13          15104     15104         0     100% /snap/gnome-characters/495
+/dev/sda3            67536      6202     61335      10% /boot/efi
+tmpfs               788960        16    788944       1% /run/user/121
+tmpfs               788960      1972    786988       1% /run/user/1000
+/dev/sdb3        976631472 446963352 529668120      46% /media/mike/Music HDD
+/dev/sdc2        952391164   8685000 895257556       1% /media/mike/8431f725-888e-4e54-884f-01e85a7eaa7d
+/dev/loop15          56192     56192         0     100% /snap/gtk-common-themes/1502
+Filesystem     1024-blocks      Used Available Capacity Mounted on
+udev               3907248         0   3907248       0% /dev
+tmpfs               788960      1988    786972       1% /run
+/dev/sda2        306545592  13606832 277297368       5% /
+tmpfs              3944800     44568   3900232       2% /dev/shm
+tmpfs                 5120         4      5116       1% /run/lock
+tmpfs              3944800         0   3944800       0% /sys/fs/cgroup
+/dev/loop10           4480      4480         0     100% /snap/gnome-calculator/704
+/dev/loop11           3840      3840         0     100% /snap/gnome-system-monitor/135
+/dev/loop6            4352      4352         0     100% /snap/gnome-calculator/544
+/dev/loop5            1024      1024         0     100% /snap/gnome-logs/81
+/dev/loop12           1024      1024         0     100% /snap/gnome-logs/93
+/dev/loop7            3840      3840         0     100% /snap/gnome-system-monitor/127
+/dev/loop14          49536     49536         0     100% /snap/gtk-common-themes/1474
+/dev/loop3           96128     96128         0     100% /snap/core/8935
+/dev/loop9           56320     56320         0     100% /snap/core18/1705
+/dev/loop0           56064     56064         0     100% /snap/core18/1668
+/dev/loop2           91264     91264         0     100% /snap/core/8268
+/dev/loop4          164096    164096         0     100% /snap/gnome-3-28-1804/116
+/dev/loop1           15104     15104         0     100% /snap/gnome-characters/399
+/dev/loop13          15104     15104         0     100% /snap/gnome-characters/495
+/dev/sda3            67536      6202     61335      10% /boot/efi
+tmpfs               788960        16    788944       1% /run/user/121
+tmpfs               788960      1972    786988       1% /run/user/1000
+/dev/sdb3        976631472 446963352 529668120      46% /media/mike/Music HDD
+/dev/sdc2        952391164   8685000 895257556       1% /media/mike/8431f725-888e-4e54-884f-01e85a7eaa7d
+/dev/loop15          56192     56192         0     100% /snap/gtk-common-themes/1502
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              2
+On-line CPU(s) list: 0,1
+Thread(s) per core:  1
+Core(s) per socket:  2
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               23
+Model name:          Intel(R) Core(TM)2 Duo CPU     P8600  @ 2.40GHz
+Stepping:            10
+CPU MHz:             1846.300
+CPU max MHz:         2394.0000
+CPU min MHz:         1596.0000
+BogoMIPS:            4778.10
+Virtualization:      VT-x
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            3072K
+NUMA node0 CPU(s):   0,1
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm sse4_1 xsave lahf_lm pti tpr_shadow vnmi flexpriority dtherm
+MemTotal:        7889600 kB
+MemFree:         3355276 kB
+MemAvailable:    4789228 kB
+Buffers:          252024 kB
+Cached:          1297464 kB
+SwapCached:            0 kB
+Active:          2503204 kB
+Inactive:         627336 kB
+Active(anon):    1583188 kB
+Inactive(anon):    78924 kB
+Active(file):     920016 kB
+Inactive(file):   548412 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:       2097148 kB
+SwapFree:        2097148 kB
+Dirty:                12 kB
+Writeback:             0 kB
+AnonPages:       1577080 kB
+Mapped:          1087720 kB
+Shmem:             81068 kB
+KReclaimable:     271316 kB
+Slab:             330968 kB
+SReclaimable:     271316 kB
+SUnreclaim:        59652 kB
+KernelStack:       12560 kB
+PageTables:        54224 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     6041948 kB
+Committed_AS:    6663560 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       31504 kB
+VmallocChunk:          0 kB
+Percpu:              744 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      485868 kB
+DirectMap2M:     7636992 kB
+enp4s0f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.43  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::ed39:a75f:4a9:2840  prefixlen 64  scopeid 0x20<link>
+        ether c4:2c:03:04:be:c8  txqueuelen 1000  (Ethernet)
+        RX packets 433724  bytes 151426362 (151.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 46575  bytes 4790230 (4.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 9739  bytes 1050201 (1.0 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 9739  bytes 1050201 (1.0 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vboxnet0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.1.1.1  netmask 255.255.255.0  broadcast 10.1.1.255
+        inet6 fe80::800:27ff:fe00:0  prefixlen 64  scopeid 0x20<link>
+        ether 0a:00:27:00:00:00  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 205  bytes 19434 (19.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp3s0b1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 58:b0:35:83:9a:8a  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
