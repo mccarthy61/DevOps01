@@ -21,7 +21,7 @@ then
     CPU=1
 elif [ $1 == "-ram" ]
 then
-    RAM=1
+    MEM=1
 elif [ $1 == "-network" ]
 then
     IP=1
