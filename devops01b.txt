@@ -271,3 +271,4 @@ wlp3s0b1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
         TX packets 0  bytes 0 (0.0 B)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
+Required Options: -volumes -cpu - ram -network -all

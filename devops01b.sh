@@ -9,7 +9,7 @@ IP=0
 # Test for parameters
 if [ "$1" == "" ]
 then
-    echo "Sorry, no options"
+    echo "Required Options: -volumes -cpu - ram -network -all"
     PART=0
     CPU=0
     MEM=0
